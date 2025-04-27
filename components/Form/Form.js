@@ -7,7 +7,6 @@ import styles from './form.module.css'
 export default function Form() {
   const [isLoading, setIsLoading] = useState(false)
   const [isSended, setIsSended] = useState(false);
- 
   const { register, handleSubmit, reset, formState: { errors }, } = useForm()
 
   const onSubmit = async(data) => {

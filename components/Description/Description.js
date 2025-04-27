@@ -84,7 +84,6 @@ export default function Description() {
                   </p>
                 </motion.div>
               </li>
-
               <li className={styles.li}>
                 <motion.div
                   ref={ref7}
@@ -109,7 +108,6 @@ export default function Description() {
                   </p>
                 </motion.div>
               </li>
-
               <li className={styles.li}>
                 <motion.div
                   ref={ref9}
@@ -134,7 +132,6 @@ export default function Description() {
                   </p>
                 </motion.div>
               </li>
-
               <li className={styles.li}>
                 <motion.div
                   ref={ref13}

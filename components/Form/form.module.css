@@ -70,8 +70,7 @@
     padding: 0 70px;
     font-size: 25px;
     font-family: 'Bebas Neue', sans-serif;
-    transition: .4s ease-in-out;
-    
+    transition: .4s ease-in-out;  
 }
 
 .submit:hover {

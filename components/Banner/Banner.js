@@ -20,7 +20,6 @@ export default function Carousel() {
   const { ref: ref1, inView: inView1 } = useInView({ triggerOnce: false, threshold: 0.0 });
   const { ref: ref2, inView: inView2 } = useInView({ triggerOnce: false, threshold: 0.0 });
   
-
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);

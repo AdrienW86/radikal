@@ -1,7 +1,6 @@
 "use client"
 
 import React, { useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
@@ -13,8 +12,8 @@ export default function Header() {
       setIsMenuOpen(!isMenuOpen);
   };
 
-   const { ref: ref1, inView: inView1 } = useInView({ triggerOnce: false, threshold: 0.0 });
-    const { ref: ref2, inView: inView2 } = useInView({ triggerOnce: false, threshold: 0.0 });
+  const { ref: ref1, inView: inView1 } = useInView({ triggerOnce: false, threshold: 0.0 });
+  const { ref: ref2, inView: inView2 } = useInView({ triggerOnce: false, threshold: 0.0 });
 
   return (
     <header className={styles.header}>
