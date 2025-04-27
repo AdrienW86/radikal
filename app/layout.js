@@ -1,0 +1,29 @@
+import './globals.css'
+import { Inter } from 'next/font/google'
+import Script from 'next/script'
+
+const inter = Inter({ subsets: ['latin'] })
+
+export const metadata = {
+  title: 'Radikal 3D',
+  description:
+    "Radikal 3D – Protégez votre habitat des termites avec Radikal 3D, votre expert en traitement et prévention. Nous offrons des solutions efficaces et durables pour éliminer les infestations de termites et préserver la structure de votre bâtiment.",
+}
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="fr">
+      <head>
+        <link rel="icon" href="favicon.png" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+      <body className={inter.className}>
+        {children}
+      </body>
+    </html>
+  )
+}
+
