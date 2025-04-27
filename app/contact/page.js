@@ -4,12 +4,11 @@ import Form from '@/components/Form/Form'
 import Footer from '@/components/Footer/Footer'
 import styles from '../page.module.css'
 
-
 export default function Contact() {
   return (
     <main className={styles.container}>
       <Header />
-     <h1 className={styles.h2}>  Nous contacter </h1>    
+     <h1 className={styles.h2}> Nous contacter </h1>    
       <Map />
       <Form />
       <Footer />    

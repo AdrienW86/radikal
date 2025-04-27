@@ -27,8 +27,7 @@ export default function GoogleMap() {
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
-      </div>
-     
+      </div>    
     </div>
   );
 }
