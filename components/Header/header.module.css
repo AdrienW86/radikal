@@ -40,31 +40,31 @@
 .line {
     width: 100%;
     height: 2px;
-    background-color: #2c3340;
+    background-color: #ffffff;
     transition: transform 0.3s, opacity 0.3s;
 }
     
 .line:hover{
-    background-color: #2c3340;
+    background-color: #ffffff;
 }
       
 .open .line:nth-child(1) {
     transform: rotate(45deg) translate(7px, 7px);
-    background-color: #000000;
+    background-color: #ffffff;
 }
     
 .open .line:nth-child(2) {
     opacity: 0;
-    background-color: #2c3340;
+    background-color: #ffffff;
 }
       
 .open .line:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
-    background-color: #2c3340;
+    background-color: #ffffff;
 }
     
 .open .line, .close .line {
-    background-color: #2c3340;
+    background-color: #ffffff;
 }
     
 .open:hover .line, .close:hover .line {
@@ -88,7 +88,7 @@
 }
 
 .li {
-    color: rgb(82,113,255);
+    color: rgb(0,74,173);
     display: flex;
     flex-direction: column;
     justify-content: center;
