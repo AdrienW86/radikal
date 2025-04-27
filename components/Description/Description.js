@@ -32,7 +32,7 @@ export default function Description() {
 
         <motion.section className={styles.localisation}>
           <Image          
-            src="/image9.png"
+            src="/image2.png"
             alt="Technicien en intervention contre les nuisibles dans les Pyrénées-Orientales"
             width={400}
             height={400}
@@ -50,8 +50,12 @@ export default function Description() {
               exit={{ opacity: 0, y: 50 }}  
               transition={{ duration: 0.5 }}
             > 
-             Basée dans les Pyrénées-Orientales (66), Protection Nuisibles intervient rapidement sur tout le département : Perpignan, Canet-en-Roussillon, Argelès-sur-Mer, Céret, Prades et leurs alentours.
-             Nous vous proposons des solutions efficaces contre les rats, souris, insectes, guêpes, frelons et autres nuisibles, aussi bien en milieu urbain que rural.
+              Basée dans les Pyrénées-Orientales (66), Radikal 3D intervient 
+              rapidement sur tout le département : Perpignan, Canet-en-Roussillon, 
+              Argelès-sur-Mer, Céret, Prades et leurs alentours. Nous vous proposons des 
+              solutions efficaces contre les termites, aussi bien pour les maisons individuelles
+              que pour les bâtiments professionnels. Faites appel à notre expertise pour protéger
+              durablement votre habitat contre les dégâts causés par les termites.
             </motion.p>
           </div>
         </motion.section>
@@ -60,13 +64,13 @@ export default function Description() {
           <h2
             className={styles.h2}
           >
-            Pourquoi choisir Protection Nuisibles ?
+            Pourquoi choisir Radikal 3D ?
           </h2>
         </div>
 
        <section className={styles.background}>
        <div className={styles.article} >
-          <ul>
+          <ul className={styles.ul}>
             <li className={styles.li}>
               <motion.img
                 ref={ref6}  
@@ -77,7 +81,7 @@ export default function Description() {
                 }}
                 exit={{ opacity: 0, x: -100 }}
                 transition={{ duration: 0.5 }}
-                src="/image12.png"
+                src="/image4.png"
                 alt="Équipement professionnel contre les rongeurs et insectes"
                 width={300}
                 height={300}
@@ -126,7 +130,7 @@ export default function Description() {
                 transition={{ duration: 0.5 }}
                 className={styles.p}
               > 
-                <span className={styles.span}> Produits homologués et respectueux de l'environnement</span>Nous utilisons uniquement des traitements agréés, sûrs pour votre famille, vos animaux domestiques et respectueux de l'écosystème local.
+                <span className={styles.span}> Respect de l'environnement</span>Nous utilisons uniquement des traitements agréés, sûrs pour votre famille, vos animaux domestiques et respectueux de l'écosystème.
               </motion.p>
             </li>
             <li className={styles.li}>

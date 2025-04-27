@@ -3,18 +3,30 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+  color: white;
+  background-color: rgb(0,74,173);
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
   padding: 20px 0;
-  background-color: rgb(255, 255, 255);;
+  color: white;
+  
+  background-color: rgb(24, 24, 24);
+  width: 100%;
 }
   
 .column {
   display: flex;
   text-align: center;
+  font-size: 20px;
   flex-direction: column;
   gap: 20px;
   padding: 16px;
-  font-weight: bold;
   line-height: 1.7em;
-  color: rgb(0, 0, 0)
+  color: rgb(255, 255, 255)
 }
   

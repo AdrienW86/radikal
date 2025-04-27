@@ -2,13 +2,14 @@
     z-index: 5;
     height: 160px;
     width: 100%;
-    color: rgb(215,42,1);
+    color: rgb(165,34,3);
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
     font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
     background-color: rgb(24, 24, 24);
     position: relative
 }
@@ -69,7 +70,7 @@
     
 .open:hover .line, .close:hover .line {
     cursor: pointer;
-    background-color: rgb(215,42,1);
+    background-color: rgb(165,34,3);
 }
 
 .menu {
@@ -101,7 +102,7 @@
 }
 
 .li:hover {
-    color: rgb(215,42,1);
+    color: rgb(165,34,3);
     cursor: pointer;
 }
 

@@ -16,9 +16,9 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" href="favicon.png" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
-          rel="stylesheet"
-        />
+            href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+            rel="stylesheet"
+          />
       </head>
       <body className={inter.className}>
         {children}
