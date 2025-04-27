@@ -5,7 +5,6 @@ import styles from './map.module.css';
 
 export default function GoogleMap() {
   const address = {
-    name: "Protection Nuisibles",
     phone: "06 62 12 56 11",
     fullAddress: "Pyrénées Orientales",
   };
@@ -13,7 +12,6 @@ export default function GoogleMap() {
   return (
     <div className={styles.mapWrapper}>
        <div className={styles.addressDetails}>
-        <h2 className={styles.name}>{address.name}</h2>
         <p className={styles.span}>
           <strong 
           >Zone d'intervention :</strong> {address.fullAddress}

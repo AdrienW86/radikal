@@ -1,0 +1,76 @@
+.container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('/image3.png');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    width: 100%; 
+    color: #ffffff;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.content {
+    position: relative;
+    z-index: 1; /* Assure que le contenu (texte) soit au-dessus de l'image filtrée */
+}
+
+
+.title {
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+    padding: 12px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+}
+
+.h2 {
+    font-size: 25px;
+    font-weight: lighter;
+    padding: 12px;
+    text-decoration: underline;
+    color: rgb(215,42,1);
+    background-color: rgb(24, 24, 24);
+}
+
+.p {
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 12px;
+    margin-bottom: 50px;
+    opacity: 1;
+    z-index: 1000;
+    background-color: rgb(24, 24, 24);
+}
+
+.p2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+    font-weight: bold;
+    padding: 20px;
+    color: rgb(0,74,173);
+    opacity: 1;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+}
+
+.ul {
+
+    padding: 12px;
+    font-weight: bold;
+    list-style: none;
+    background-color: rgb(24, 24, 24);
+}
+
+.li {
+    font-size: 20px;
+    font-weight: lighter;
+    font-weight: bold;
+    color: rgb(0,74,173);
+    padding: 8px;
+    margin-left: 6px;
+}

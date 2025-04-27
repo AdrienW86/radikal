@@ -1,14 +1,14 @@
 import Header from '@/components/Header/Header'
-import SimpleBanner from '@/components/SimpleBanner/SimpleBanner'
-import About from '@/components/About/About'
+import Banner from '@/components/Banner/Banner'
+import Menu from '@/components/Menu/Menu'
 import Footer from '@/components/Footer/Footer'
 
 export default function page() {
   return (
     <main>
       <Header />
-      <SimpleBanner />
-      <About />
+      <Banner />
+      <Menu />
       <Footer />     
     </main>
   )

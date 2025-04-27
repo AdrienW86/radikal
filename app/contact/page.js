@@ -9,7 +9,7 @@ export default function Contact() {
   return (
     <main className={styles.container}>
       <Header />
-     <h2 className={styles.h2}>  Nous contacter </h2>    
+     <h1 className={styles.h2}>  Nous contacter </h1>    
       <Map />
       <Form />
       <Footer />    

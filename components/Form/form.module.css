@@ -1,20 +1,22 @@
 .form {
+    font-family: 'Bebas Neue', sans-serif;
     z-index: 5;
     text-align: center;
     padding-bottom: 60px;
     max-width: 350px;
     margin: 50px auto;
     border-radius: 20px;
-    border: 1px solid rgb(215,42,1);  
-    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(24, 24, 24);
 }
 
 .h3 {
+    font-weight: lighter;
+    font-family: 'Bebas Neue', sans-serif;
     padding: 18px;
     text-align: center;
-    font-size: 1.2em;
-    font-weight: bold;
-    color: rgb(82,113,255);  
+    font-size: 25px;
+    color: rgb(0,74,173);
 }
 
 .formContent {
@@ -25,24 +27,28 @@
 }
 
 .input, .textarea {
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
     border-radius: 22px;
     height: 50px;
     color: black;
     background-color: #ffffff;
-    border: 1px solid rgb(215,42,1);
+    border: 1px solid rgb(24, 24, 24);
     width: 90%;
     margin: 0 auto 15px auto;
     padding-left: 20px;
 }
 
 .textarea {
+    font-family: 'Bebas Neue', sans-serif;
     padding-top: 20px;
     height: 200px;
 }
 
 .error {
     font-size: 0.6em;
-    color: red;
+    color: rgb(215,42,1);
     position: relative;
     bottom: 6px;
     padding-left: 30px;
@@ -61,7 +67,8 @@
     justify-content: center;
     text-align: center;
     padding: 0 70px;
-    font-size: 1.2em;
+    font-size: 25px;
+    font-family: 'Bebas Neue', sans-serif;
     transition: .4s ease-in-out;
     
 }

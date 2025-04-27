@@ -67,3 +67,9 @@
     background-color: rgb(138, 25, 0);   
 }
 
+.image {
+    position: absolute;
+    z-index: 2;
+    right: 20px;   
+    top: 20px;
+}

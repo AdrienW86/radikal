@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
-import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import styles from './banner.module.css';
@@ -32,7 +31,14 @@ export default function Carousel() {
 
   return (
     <div className={styles.carousel} id="carouselExampleFade">
-     
+      <Image          
+        src="/garantie.png"
+        alt="garantie certibiocide"
+        width={150}
+        height={150}
+        sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
+        className={styles.image}
+      />
         <div className={styles.btnContainer}>
             <motion.a 
               className={styles.btn} 
@@ -50,7 +56,7 @@ export default function Carousel() {
             </motion.a>
             <motion.a 
               className={styles.btn2} 
-              href="/pictures"
+              href="/termites"
               ref={ref2}  
               initial={{ opacity: 0, x: 50 }} 
               animate={{
@@ -60,7 +66,7 @@ export default function Carousel() {
               exit={{ opacity: 0, x: 50 }}
               transition={{ duration: 0.3 }}
             > 
-              Nos interventions 
+              Termites 
             </motion.a>
            
         </div>

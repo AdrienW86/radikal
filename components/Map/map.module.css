@@ -7,6 +7,9 @@
   width: 100%;
   max-width: 350px;
   margin: 3vh 0;
+  font-weight: lighter;
+  font-size: 20px;
+  font-family: 'Bebas Neue', sans-serif;
   color: rgb(253, 253, 253);
 }
   
@@ -17,6 +20,7 @@
   height: 350px;
   padding-bottom: 56.25%;
   overflow: hidden;
+  border: 2px solid rgb(24, 24, 24);
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }

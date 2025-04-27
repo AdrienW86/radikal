@@ -49,10 +49,8 @@ export default function Header() {
         <ul className={styles.ul}>
           <li> <Link className={styles.li} href="/" onClick={handleMenuToggle}> Accueil </Link></li>
           <li> <Link className={styles.li} href="/pictures" onClick={handleMenuToggle}> Photos </Link></li>
-          <li> <Link className={styles.li} href="/desinsectisation" onClick={handleMenuToggle}> Désinsectisation </Link></li>
-          <li> <Link className={styles.li} href="/deratisation" onClick={handleMenuToggle}> Dératisation </Link></li>
-          <li> <Link className={styles.li} href="/frelons" onClick={handleMenuToggle}> Nids de guêpes / frelons </Link></li>
-          <li> <Link className={styles.li} href="savoir-faire" onClick={handleMenuToggle}> Qui sommes-nous ? </Link></li>
+          <li> <Link className={styles.li} href="/termites" onClick={handleMenuToggle}> Extermination des termites </Link></li>
+          <li> <Link className={styles.li} href="/entreprise" onClick={handleMenuToggle}> L'entreprise </Link></li>
           <li> <Link className={styles.li} href="/contact" onClick={handleMenuToggle}> Contact </Link></li>
         </ul>
       </section>}
