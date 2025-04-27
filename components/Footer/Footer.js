@@ -12,8 +12,8 @@ export default function Footer() {
         <Image
             src="/logo.png"
             alt="logo"
-            width={100}
-            height={100}
+            width={140}
+            height={140}
             sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
           />
        </div>

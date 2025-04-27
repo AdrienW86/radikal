@@ -31,8 +31,8 @@ export default function Header() {
           className={styles.logo}
           src="/logo.png"
           alt="logo"
-          width={80}
-          height={80}
+          width={100}
+          height={100}
           sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
         />
       </Link>   
