@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.tonsite.com
+Host: https://www.radikal3d.fr
 
 # Sitemaps
-Sitemap: https://www.tonsite.com/sitemap.xml
+Sitemap: https://www.radikal3d.fr/sitemap.xml
