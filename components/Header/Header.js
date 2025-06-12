@@ -47,7 +47,12 @@ export default function Header() {
       <section className={styles.menu}>
         <ul className={styles.ul}>
           <li> <Link className={styles.li} href="/" onClick={handleMenuToggle}> Accueil </Link></li>
-          <li> <Link className={styles.li} href="/pictures" onClick={handleMenuToggle}> Photos </Link></li>
+          <li> <Link className={styles.li} href="/pictures" onClick={handleMenuToggle}> Photos </Link></li>          
+          <li> <Link className={styles.li} href="/rats" onClick={handleMenuToggle}> Dératisation </Link></li>
+          <li> <Link className={styles.li} href="/pigeons" onClick={handleMenuToggle}> Dépigeonnage </Link></li>
+          <li> <Link className={styles.li} href="/frelons" onClick={handleMenuToggle}> Guêpes et frelons </Link></li>
+          <li> <Link className={styles.li} href="/cafards" onClick={handleMenuToggle}> Blattes et cafards </Link></li>
+          <li> <Link className={styles.li} href="/puces" onClick={handleMenuToggle}> Punaises et puces de lits </Link></li>
           <li> <Link className={styles.li} href="/termites" onClick={handleMenuToggle}> Extermination des termites </Link></li>
           <li> <Link className={styles.li} href="/entreprise" onClick={handleMenuToggle}> L'entreprise </Link></li>
           <li> <Link className={styles.li} href="/contact" onClick={handleMenuToggle}> Contact </Link></li>
