@@ -5,7 +5,7 @@ import styles from './map.module.css';
 
 export default function GoogleMap() {
   const address = {
-    phone: "06 62 12 56 11",
+    phone: "06 08 00 86 83",
     fullAddress: "Pyrénées Orientales",
   };
 
