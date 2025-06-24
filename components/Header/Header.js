@@ -18,7 +18,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <Link href="tel:0608008683" className={styles.callButton}>
-        📞  Appeler maintenant
+        📞 06.08.00.86.83
       </Link>
 
       <Link href="/">
