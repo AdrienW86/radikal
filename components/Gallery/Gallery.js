@@ -12,6 +12,13 @@ export default function Gallery() {
     { src: '/image4.png', alt: 'Image 4' },
     { src: '/image5.png', alt: 'Image 5' },
     { src: '/image6.png', alt: 'Image 1' },
+    { src: '/cafards.jpg', alt: 'Image 1' },
+    { src: '/deratisation.png', alt: 'Image 2' },
+    { src: '/desinfection.png', alt: 'Image 3' },
+    { src: '/frelons.jpg', alt: 'Image 4' },
+    { src: '/pigeons.png', alt: 'Image 5' },
+    { src: '/punaises.png', alt: 'Image 1' },
+      { src: '/termites.jpg', alt: 'Image 1' },
   ];
 
   const [isOpen, setIsOpen] = useState(false);

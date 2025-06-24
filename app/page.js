@@ -1,5 +1,6 @@
 import Banner from '@/components/Banner/Banner'
 import Equipment from '@/components/Equipment/Equipment'
+import Services from '@/components/Services/Services'
 import Description from '@/components/Description/Description'
 import styles from './page.module.css'
 
@@ -13,6 +14,7 @@ export default function Home() {
     <main className={styles.main}>
       <Banner />
       <Equipment />
+      <Services />
       <Description />    
     </main>
   )

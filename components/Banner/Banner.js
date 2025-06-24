@@ -7,12 +7,14 @@ import { useInView } from 'react-intersection-observer';
 import styles from './banner.module.css';
 
 const images = [
-  '/image1.png',
-  '/image2.png',
-  '/image3.png', 
-  '/image4.png',
-  '/image5.png',
-  '/image6.png',
+  '/desinfection.png',
+  '/termites.jpg',
+  '/deratisation.png',
+  '/pigeons.png', 
+  '/punaises.png',
+  '/frelons.jpg',
+  '/cafards.jpg',
+
 ];
 
 export default function Carousel() {
@@ -55,7 +57,7 @@ export default function Carousel() {
             </motion.a>
             <motion.a 
               className={styles.btn2} 
-              href="/termites"
+              href="/#services"
               ref={ref2}  
               initial={{ opacity: 0, x: 50 }} 
               animate={{
@@ -65,7 +67,7 @@ export default function Carousel() {
               exit={{ opacity: 0, x: 50 }}
               transition={{ duration: 0.3 }}
             > 
-              Termites 
+              Nos services 
             </motion.a>
            
         </div>

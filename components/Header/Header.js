@@ -48,6 +48,8 @@ export default function Header() {
         <ul className={styles.ul}>
           <li> <Link className={styles.li} href="/" onClick={handleMenuToggle}> Accueil </Link></li>
           <li> <Link className={styles.li} href="/pictures" onClick={handleMenuToggle}> Photos </Link></li>          
+          <li> <Link className={styles.li} href="/desinsectisation" onClick={handleMenuToggle}> Désinsectisation </Link></li>
+          <li> <Link className={styles.li} href="/desinfection" onClick={handleMenuToggle}> Désinfection </Link></li>          
           <li> <Link className={styles.li} href="/rats" onClick={handleMenuToggle}> Dératisation </Link></li>
           <li> <Link className={styles.li} href="/pigeons" onClick={handleMenuToggle}> Dépigeonnage </Link></li>
           <li> <Link className={styles.li} href="/frelons" onClick={handleMenuToggle}> Guêpes et frelons </Link></li>
