@@ -14,24 +14,6 @@
     position: relative
 }
 
-.callButton {
-    position: absolute;
-    left: 20px;
-    font-size: 0.8rem;
-    padding: 4px;
-    width: 90px;
-    border: 1px solid red;
-    color: rgb(0,74,173);
-    border-radius: 8px;
-    transition: .4s ease-in-out;
-    background-color: white;
-}
-
-.callButton:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgb(255, 0, 0);
-}
-
 .buttonBox {
     display: flex;
     width: 30%;

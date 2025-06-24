@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import styles from './banner.module.css';
@@ -32,6 +33,9 @@ export default function Carousel() {
 
   return (
     <div className={styles.carousel} id="carouselExampleFade">
+       <Link href="tel:0608008683" className={styles.callButton}>
+        📞 06.08.00.86.83
+      </Link>
       <Image          
         src="/garantie.png"
         alt="garantie certibiocide"
