@@ -47,7 +47,7 @@ export default function Carousel() {
         <div className={styles.btnContainer}>
             <motion.a 
               className={styles.btn} 
-              href="/contact"
+              href="/contact#devis"
               ref={ref1}  
               initial={{ opacity: 0, x: -50 }} 
               animate={{

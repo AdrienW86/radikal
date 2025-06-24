@@ -48,7 +48,7 @@ export default function Form() {
         )}
         {!isSended && (
             <form onSubmit={handleSubmit(onSubmit)}>           
-              <h3 className={styles.h3}> Une question ? Nous vous répondrons dans les meilleurs délais </h3>    
+              <h3 id= "devis" className={styles.h3}> Demandez votre devis gratuit </h3>    
                 <div className={styles.formContent}>
                   <input className={styles.input} placeholder='Nom' {...register('name', {required: true})} />
                     {errors.name && <span className={styles.error}> Ce champ est requis.</span>}          
