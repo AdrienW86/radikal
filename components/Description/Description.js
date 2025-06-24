@@ -96,7 +96,7 @@ export default function Description() {
                   transition={{ duration: 0.5 }}
                 >
                   <Image
-                    src="/image3.png"
+                    src="/image6.png"
                     alt="Traitement contre les insectes volants et rampants"
                     width={200}
                     height={200}
@@ -120,7 +120,7 @@ export default function Description() {
                   transition={{ duration: 0.5 }}
                 >
                   <Image
-                    src="/image2.png"
+                    src="/image5.png"
                     alt="Expertise anti-nuisibles en milieu rural et urbain"
                     width={200}
                     height={200}
@@ -144,7 +144,7 @@ export default function Description() {
                   transition={{ duration: 0.5 }}
                 >
                   <Image
-                    src="/image1.png"
+                    src="/image10.png"
                     alt="Technicien équipé pour intervention anti-nuisibles"
                     width={300}
                     height={300}

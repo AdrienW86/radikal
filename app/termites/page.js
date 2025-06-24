@@ -45,7 +45,7 @@ export default function page() {
   return (
    <main className={styles.main}> 
       <Banner />
-      <Menu {...termitesContent}/>
+      <Menu {...termitesContent} backgroundImage="/termites.jpg" />
     </main>
   )
 }

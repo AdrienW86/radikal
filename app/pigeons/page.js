@@ -44,7 +44,7 @@ export default function page() {
   return (
    <main className={styles.main}> 
       <Banner />
-      <Menu {...depigeonnageContent}/>
+      <Menu {...depigeonnageContent} backgroundImage="/pigeons.png"/>
     </main>
   )
 }

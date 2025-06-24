@@ -46,7 +46,7 @@ export default function page() {
   return (
    <main className={styles.main}> 
       <Banner />
-      <Menu {...cafardsContent} />
+      <Menu {...cafardsContent} backgroundImage="/cafards.jpg" />
     </main>
   )
 }

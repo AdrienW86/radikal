@@ -46,7 +46,7 @@ export default function page() {
   return (
    <main className={styles.main}> 
       <Banner />
-      <Menu {...guepesContent} />
+      <Menu {...guepesContent} backgroundImage="/frelons.jpg" />
     </main>
   )
 }

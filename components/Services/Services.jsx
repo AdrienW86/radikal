@@ -7,49 +7,49 @@ const data = [
     image: "/desinfection.png",
     title: "Désinfection",
     alt: "Technicien en intervention contre les nuisibles dans les Pyrénées-Orientales",
-    url: "/desinfection"
+    url: "/desinfection#title"
   },
   {
     image: "/desinsectisation.png",
     title: "Désinsectisation",
     alt: "Traitement contre les insectes nuisibles dans les Pyrénées-Orientales",
-    url: "/desinsectisation"
+    url: "/desinsectisation#title"
   },
   {
     image: "/deratisation.png",
     title: "Dératisation",
     alt: "Intervention contre les rongeurs dans les Pyrénées-Orientales",
-    url: "/rats"
+    url: "/rats#title"
   },
    {
     image: "/pigeons.png",
     title: "Dépigeonnage",
     alt: "Intervention contre les rongeurs dans les Pyrénées-Orientales",
-    url: "/pigeons"
+    url: "/pigeons#title"
   },
   {
     image: "/frelons.jpg",
     title: "Guêpes et frelons",
     alt: "Intervention contre les rongeurs dans les Pyrénées-Orientales",
-    url: "/frelons"
+    url: "/frelons#title"
   },
    {
     image: "/cafards.jpg",
     title: "Blattes et cafard",
     alt: "Intervention contre les rongeurs dans les Pyrénées-Orientales",
-    url: "/cafards"
+    url: "/cafards#title"
   },
    {
     image: "/punaises.png",
     title: "Punaises et puces de lits",
     alt: "Intervention contre les rongeurs dans les Pyrénées-Orientales",
-    url: "/puces"
+    url: "/puces#title"
   },
     {
     image: "/termites.jpg",
     title: "Termites",
     alt: "Intervention contre les rongeurs dans les Pyrénées-Orientales",
-    url: "/termites"
+    url: "/termites#title"
   },
 ]
 
