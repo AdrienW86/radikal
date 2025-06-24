@@ -30,7 +30,7 @@ export default function Description() {
 
         <motion.section className={styles.localisation}>
           <Image
-            src="/image2.png"
+            src="/desinsectisation.png"
             alt="Technicien en intervention contre les nuisibles dans les Pyrénées-Orientales"
             width={400}
             height={400}
