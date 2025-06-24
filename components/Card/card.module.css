@@ -11,6 +11,7 @@
 }
 
 .intro {
+    color: white;
     display: flex;
     text-align: center;
     line-height: 1.7em;
