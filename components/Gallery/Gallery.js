@@ -19,6 +19,7 @@ export default function Gallery() {
     { src: '/pigeons.png', alt: 'Image 5' },
     { src: '/punaises.png', alt: 'Image 1' },
     { src: '/termites.jpg', alt: 'Image 1' },
+     { src: '/image10.png', alt: 'Image 10' },
   ];
 
   const [isOpen, setIsOpen] = useState(false);
