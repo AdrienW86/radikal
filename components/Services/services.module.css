@@ -3,10 +3,10 @@
     flex-wrap: wrap;
     font-family: 'Bebas Neue', sans-serif;
     justify-content: center;
+    background-color: rgb(71, 71, 71);
 }
 
-.localisation {
-    
+.localisation { 
     justify-content: center;
     width: 150px;
     margin: auto;

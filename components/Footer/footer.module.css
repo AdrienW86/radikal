@@ -1,7 +1,7 @@
 .footer {
     padding-top: 10px;
     z-index: 5;
-    height: 240px;
+    height: 300px;
     width: 100%;
     color: white;
     font-family: 'Bebas Neue', sans-serif;
@@ -45,4 +45,22 @@
 
 .codev:hover {
     text-decoration: underline;
+}
+
+.linksContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+}
+
+.footerLink {
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footerLink:hover {
+  text-decoration: underline;
 }
