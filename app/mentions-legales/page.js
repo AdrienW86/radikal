@@ -12,16 +12,16 @@ export default function MentionsLegales() {
       
       <h2 className={styles.subtitle}>Éditeur du site</h2>
       <p className={styles.text}>
-        Nom : GREGORY ROBLES<br/>
+        Nom : HOSPICE MICHEL<br/>
         Forme juridique : Auto-entrepreneur<br/>
         Dénomination commerciale : Radikal 3D<br/>
         Adresse : 88 chemin des charettes, 66000 Perpignan, France<br/>
-        Téléphone : +33 7 57 51 64 14<br/>
-        Email : <a href="mailto:radikal.3d66@gmail.com" className={styles.link}>protection.nuisibles66@gmail.com</a><br/>
-        Directeur de publication : Gregory ROBLES<br/>
-        SIREN : 834799751<br/>
-        SIRET : 83479975100013<br/>
-        TVA Intracom : FR87838906659
+        Téléphone : +33 6 08 00 86 83<br/>
+        Email : <a href="mailto:radikal.3d66@gmail.com" className={styles.link}>radikal.3d66@gmail.com</a><br/>
+        Directeur de publication : HOSPICE MICHEL<br/>
+        SIREN : 483160420<br/>
+        SIRET : 483 160 420 00012<br/>
+       
       </p>
 
       <h2 className={styles.subtitle}>Hébergeur</h2>
@@ -39,7 +39,7 @@ export default function MentionsLegales() {
 
       <h2 className={styles.subtitle}>Limitation de responsabilité</h2>
       <p className={styles.text}>
-        Les informations présentes sur ce site sont fournies de bonne foi, mais peuvent contenir des inexactitudes ou omissions. L'entreprise Protection Nuisibles ne saurait être tenue responsable de toute utilisation ou interprétation erronée.
+        Les informations présentes sur ce site sont fournies de bonne foi, mais peuvent contenir des inexactitudes ou omissions. L'entreprise Radikal 3D ne saurait être tenue responsable de toute utilisation ou interprétation erronée.
       </p>
 
       <h2 className={styles.subtitle}>Litiges</h2>
