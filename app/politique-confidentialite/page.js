@@ -56,8 +56,8 @@ export default function PolitiqueConfidentialite() {
         <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-600">
           <li>
             <span className="font-semibold text-gray-800">Par email :</span>{' '}
-            <a href="mailto:radikal.3d66@gmail.com" className="text-red-600 hover:text-red-700 font-medium underline transition-colors">
-              radikal.3d66@gmail.com
+            <a href="mailto:contact@radikal.3d.fr" className="text-red-600 hover:text-red-700 font-medium underline transition-colors">
+              contact@radikal.3d.fr
             </a>
           </li>
           <li><span className="font-semibold text-gray-800">Par courrier :</span> 88 chemin des charettes, 66000 Perpignan, France</li>

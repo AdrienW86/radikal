@@ -26,8 +26,8 @@ export default function MentionsLegales() {
           <p><span className="font-semibold text-gray-800">Téléphone :</span> +33 6 08 00 86 83</p>
           <p>
             <span className="font-semibold text-gray-800">Email :</span>{' '}
-            <a href="mailto:radikal.3d66@gmail.com" className="text-red-600 hover:text-red-700 font-medium underline transition-colors">
-              radikal.3d66@gmail.com
+            <a href="mailto:contact@radikal.3d.fr" className="text-red-600 hover:text-red-700 font-medium underline transition-colors">
+              contact@radikal.3d.fr
             </a>
           </p>
           <p><span className="font-semibold text-gray-800">Directeur de publication :</span> HOSPICE MICHEL</p>
