@@ -1,11 +1,9 @@
-import Banner from '@/components/Banner/Banner'
-import Menu from '@/components/Menu/Menu'
-import styles from '../page.module.css'
+import Menu from '@/components/Menu/Menu';
 
 export const metadata = {
   title: "Dératisation à Perpignan - Radikal 3D",
-  description: "Radikal 3D à Perpignan vous propose un traitement efficace contre les rats et souris. Diagnostic précis, intervention rapide et solutions durables."
-}
+  description: "Radikal 3D à Perpignan vous propose un traitement efficace contre les rats et souris. Diagnostic précis, intervention rapide et solutions durables.",
+};
 
 const deratisationContent = {
   title: "Dératisation professionnelle",
@@ -31,7 +29,7 @@ const deratisationContent = {
     },
     {
       title: "4. Suivi post-intervention et prévention",
-      content: "Une fois le traitement réalisé, nous assurons un suivi régulier pour vérifier l’efficacité de l’intervention. Nous vous conseillons également sur les solutions durables à mettre en place : stockage sécurisé des déchets, contrôle de l’humidité, et maintenance préventive.",
+      content: "Une fois le traitement réalisé, nous assurons un suivi vu régulier pour vérifier l’efficacité de l’intervention. Nous vous conseillons également sur les solutions durables à mettre en place : stockage sécurisé des déchets, contrôle de l’humidité, et maintenance préventive.",
     },
     {
       title: "5. Intervention rapide à Perpignan (66)",
@@ -39,14 +37,12 @@ const deratisationContent = {
     }
   ],
   conclusion: "Faites confiance à Radikal 3D pour un traitement anti-rongeurs efficace à Perpignan. Éradication rapide, protection durable et conseils personnalisés pour votre sécurité et votre tranquillité."
-}
+};
 
-
-export default function page() {
+export default function Page() {
   return (
-   <main className={styles.main}> 
-      <Banner />
+    <main className="w-full min-h-screen bg-white pt-20 overflow-x-hidden">
       <Menu {...deratisationContent} backgroundImage="/deratisation.png" />
     </main>
-  )
+  );
 }

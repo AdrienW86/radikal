@@ -1,11 +1,9 @@
-import Banner from '@/components/Banner/Banner'
-import Menu from '@/components/Menu/Menu'
-import styles from '../page.module.css'
+import Menu from '@/components/Menu/Menu';
 
 export const metadata = {
   title: "Désinsectisation à Perpignan - Traitement insectes nuisibles - Radikal 3D",
   description: "Radikal 3D vous débarrasse des insectes nuisibles à Perpignan et dans tout le 66. Intervention rapide, traitements efficaces et respectueux de l’environnement.",
-}
+};
 
 const desinsectisationContent = {
   title: "Désinsectisation : traitement des insectes nuisibles",
@@ -39,13 +37,14 @@ const desinsectisationContent = {
     }
   ],
   conclusion: "Pour une désinsectisation rapide et efficace dans le 66, faites appel à Radikal 3D. Nos traitements vous garantissent un environnement sain et protégé durablement."
-}
+};
 
-export default function page() {
+export default function Page() {
   return (
-    <main className={styles.main}>
-      <Banner />
-      <Menu {...desinsectisationContent} backgroundImage="/desinsectisation.png"/>
+    // min-h-screen : empêche le footer de flotter au milieu si le contenu est court
+    // pt-20 : évite que le haut de la Banner soit masqué par ton Header fixe
+    <main className="w-full min-h-screen bg-white pt-20 overflow-x-hidden">
+      <Menu {...desinsectisationContent} backgroundImage="/desinsectisation.png" />
     </main>
-  )
+  );
 }

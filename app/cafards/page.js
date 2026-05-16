@@ -1,11 +1,9 @@
-import Banner from '@/components/Banner/Banner'
-import Menu from '@/components/Menu/Menu'
-import styles from '../page.module.css'
+import Menu from '@/components/Menu/Menu';
 
 export const metadata = {
   title: "Désinsectisation à Perpignan - Radikal 3D",
   description: "Traitement contre cafards, fourmis, moustiques et autres insectes à Perpignan. Radikal 3D vous débarrasse efficacement des nuisibles.",
-}
+};
 
 const cafardsContent = {
   title: "Élimination des cafards et blattes",
@@ -39,15 +37,14 @@ const cafardsContent = {
     }
   ],
   conclusion: "Pour une maison saine et sans cafards, faites confiance à Radikal 3D, votre expert local en désinsectisation à Perpignan."
-}
+};
 
-
-export default function page() {
+export default function Page() {
   return (
-   <main className={styles.main}> 
-      <Banner />
+    // min-h-screen : force la page à prendre toute la hauteur de l'écran pour éviter que le footer remonte s'il y a peu de texte
+    // pt-20 : décale le contenu vers le bas pour ne pas qu'il soit caché derrière le Header fixe
+    <main className="w-full min-h-screen bg-white pt-20 overflow-x-hidden">
       <Menu {...cafardsContent} backgroundImage="/cafards.jpg" />
     </main>
-  )
+  );
 }
-

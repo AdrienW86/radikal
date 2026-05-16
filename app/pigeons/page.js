@@ -1,11 +1,9 @@
-import Banner from '@/components/Banner/Banner'
-import Menu from '@/components/Menu/Menu'
-import styles from '../page.module.css'
+import Menu from '@/components/Menu/Menu';
 
 export const metadata = {
   title: "Dépigeonnage Pyrénées-Orientales - Radikal 3D",
-  description: "Protégez votre bâtiment des nuisances des pigeons avec Radikal 3D. Intervention professionnelle et respectueuse dans les Pyrénées-Orientales."
-}
+  description: "Protégez votre bâtiment des nuisances des pigeons avec Radikal 3D. Intervention professionnelle et respectueuse dans les Pyrénées-Orientales.",
+};
 
 const depigeonnageContent = {
   title: "Dépigeonnage et lutte contre les nuisances des pigeons",
@@ -38,13 +36,14 @@ const depigeonnageContent = {
     }
   ],
   conclusion: "Radikal 3D, votre expert en dépigeonnage dans les Pyrénées-Orientales, vous aide à protéger votre patrimoine immobilier des nuisances des pigeons."
-}
+};
 
-export default function page() {
+export default function Page() {
   return (
-   <main className={styles.main}> 
-      <Banner />
-      <Menu {...depigeonnageContent} backgroundImage="/pigeons.png"/>
+    // pt-20 : descend le contenu pour ne pas chevaucher le Header fixe
+    // min-h-screen : aligne correctement le footer en bas de page
+    <main className="w-full min-h-screen bg-white pt-20 overflow-x-hidden"> 
+      <Menu {...depigeonnageContent} backgroundImage="/pigeons.png" />
     </main>
-  )
+  );
 }

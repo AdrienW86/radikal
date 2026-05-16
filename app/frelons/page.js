@@ -1,11 +1,9 @@
-import Banner from '@/components/Banner/Banner'
-import Menu from '@/components/Menu/Menu'
-import styles from '../page.module.css'
+import Menu from '@/components/Menu/Menu';
 
 export const metadata = {
   title: "Destruction de nids de guêpes et frelons à Perpignan - Radikal 3D",
   description: "Radikal 3D intervient rapidement pour éliminer les nids de guêpes et frelons à Perpignan. Sécurité et efficacité garanties.",
-}
+};
 
 const guepesContent = {
   title: "Destruction de nids de guêpes et frelons",
@@ -39,14 +37,14 @@ const guepesContent = {
     }
   ],
   conclusion: "Pour sécuriser votre maison ou votre entreprise, faites appel à Radikal 3D, spécialiste de la destruction de nids de guêpes et frelons dans le 66."
-}
+};
 
-
-export default function page() {
+export default function Page() {
   return (
-   <main className={styles.main}> 
-      <Banner />
+    // pt-20 : pousse le contenu vers le bas pour ne pas qu'il soit masqué par le Header
+    // min-h-screen : garantit que la page prend toute la hauteur nécessaire à l'écran
+    <main className="w-full min-h-screen bg-white pt-20 overflow-x-hidden"> 
       <Menu {...guepesContent} backgroundImage="/frelons.jpg" />
     </main>
-  )
+  );
 }

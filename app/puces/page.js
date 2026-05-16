@@ -1,11 +1,9 @@
-import Banner from '@/components/Banner/Banner'
-import Menu from '@/components/Menu/Menu'
-import styles from '../page.module.css'
+import Menu from '@/components/Menu/Menu';
 
 export const metadata = {
   title: "Traitement Punaises de lits à Perpignan - Radikal 3D",
-  description: "Éradiquez les punaises de lit avec Radikal 3D. Inspection minutieuse et traitements efficaces pour un sommeil paisible à Perpignan."
-}
+  description: "Éradiquez les punaises de lit avec Radikal 3D. Inspection minutieuse et traitements efficaces pour un sommeil paisible à Perpignan.",
+};
 
 const punaisesContent = {
   title: "Traitement des punaises et puces de lit",
@@ -38,14 +36,15 @@ const punaisesContent = {
       content: "Intervention rapide dans tout le département 66, avec un service confidentiel et respectueux de votre intimité.",
     }
   ],
-  conclusion: "Confiez votre problème de punaises ou puces de lit à Radikal 3D, expert en lutte contre ces nuisibles à Perpignan."
-}
+  conclusion: "Confiez votre problem de punaises ou puces de lit à Radikal 3D, expert en lutte contre ces nuisibles à Perpignan."
+};
 
-export default function page() {
+export default function Page() {
   return (
-   <main className={styles.main}> 
-      <Banner />
-      <Menu {...punaisesContent} backgroundImage="/punaises.png"/>
+    // pt-20 : décale le contenu vers le bas pour compenser la hauteur du Header fixe
+    // min-h-screen : empêche le footer de remonter si l'écran est très grand
+    <main className="w-full min-h-screen bg-white pt-20 overflow-x-hidden"> 
+      <Menu {...punaisesContent} backgroundImage="/punaises.png" />
     </main>
-  )
+  );
 }

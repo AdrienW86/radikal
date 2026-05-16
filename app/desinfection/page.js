@@ -1,11 +1,9 @@
-import Banner from '@/components/Banner/Banner'
-import Menu from '@/components/Menu/Menu'
-import styles from '../page.module.css'
+import Menu from '@/components/Menu/Menu';
 
 export const metadata = {
   title: "Désinfection à Perpignan - Traitement virus, bactéries et champignons - Radikal 3D",
   description: "Radikal 3D réalise des opérations de désinfection à Perpignan et dans le 66 : locaux, habitations, bureaux, après sinistre ou contamination. Intervention rapide et efficace.",
-}
+};
 
 const desinfectionContent = {
   title: "Désinfection de locaux et habitations",
@@ -39,13 +37,14 @@ const desinfectionContent = {
     }
   ],
   conclusion: "Pour assurer la sécurité sanitaire de vos espaces privés ou professionnels, faites appel à Radikal 3D, spécialiste de la désinfection dans les Pyrénées-Orientales."
-}
+};
 
-export default function page() {
+export default function Page() {
   return (
-    <main className={styles.main}>
-      <Banner />
+    // min-h-screen : force la page à prendre toute la hauteur de l'écran pour éviter que le footer remonte s'il y a peu de texte
+    // pt-20 : décale le contenu vers le bas pour ne pas qu'il soit caché derrière le Header fixe
+    <main className="w-full min-h-screen bg-white pt-20 overflow-x-hidden"> 
       <Menu {...desinfectionContent} backgroundImage="/desinfection.png" />
     </main>
-  )
+  );
 }

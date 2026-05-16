@@ -1,11 +1,9 @@
-import Banner from '@/components/Banner/Banner'
-import Menu from '@/components/Menu/Menu'
-import styles from '../page.module.css'
+import Menu from '@/components/Menu/Menu';
 
 export const metadata = {
   title: "Traitement termites à Perpignan - Radikal 3D",
   description: "Radikal 3D traite efficacement les infestations de termites à Perpignan et alentours. Diagnostic précis, traitement certifié et prévention durable.",
-}
+};
 
 const termitesContent = {
   title: "Traitement des termites",
@@ -39,13 +37,14 @@ const termitesContent = {
     }
   ],
   conclusion: "Avec Radikal 3D, protégez vos bâtiments et vos biens contre les termites grâce à l'expertise d'une équipe professionnelle, réactive et toujours à votre service."
-}
+};
 
-export default function page() {
+export default function Page() {
   return (
-   <main className={styles.main}> 
-      <Banner />
+    // pt-20 : descend le contenu pour libérer de l'espace sous le Header fixe
+    // min-h-screen : force la page à occuper toute la hauteur de l'écran pour caler le footer en bas
+    <main className="w-full min-h-screen bg-white pt-20 overflow-x-hidden">
       <Menu {...termitesContent} backgroundImage="/termites.jpg" />
     </main>
-  )
+  );
 }

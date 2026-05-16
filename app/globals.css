@@ -1,48 +1,16 @@
+@import "tailwindcss";
+
+/* Si tu es sur Tailwind v3, remplace la ligne du dessus par :
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*/
+
+/* 1. Importation de tes polices d'écriture */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-:root {
-  --max-width: 1100px;
-  --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
-
- 
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-
-    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
-    --secondary-glow: linear-gradient(
-      to bottom right,
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0.3)
-    );
-
-    --tile-start-rgb: 2, 13, 46;
-    --tile-end-rgb: 2, 5, 19;
-    --tile-border: conic-gradient(
-      #ffffff80,
-      #ffffff40,
-      #ffffff30,
-      #ffffff20,
-      #ffffff10,
-      #ffffff10,
-      #ffffff80
-    );
-
-    --callout-rgb: 20, 20, 20;
-    --callout-border-rgb: 108, 108, 108;
-    --card-rgb: 100, 100, 100;
-    --card-border-rgb: 200, 200, 200;
-  }
-}
-
+/* 2. Reset global propre (sans bloquer la largeur à 800px) */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -51,29 +19,21 @@
 
 html,
 body {
-  max-width: 800px;
-  margin: auto;
+  margin: 0;
+  padding: 0;
+  width: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth; /* Permet un défilement fluide lors des clics sur les ancres */
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-    font-family: 'Bebas Neue', sans-serif;
+  /* On applique la police globale par défaut pour Radikal 3D */
+  font-family: 'Bebas Neue', sans-serif;
+  background-color: #ffffff; /* Fond blanc par défaut, modifiable par Tailwind */
+  color: #1e293b;
 }
 
 a {
   color: inherit;
   text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }
