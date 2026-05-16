@@ -1,10 +1,10 @@
 import { Resend } from 'resend';
 
-// Initialisation de Resend avec ta clé d'API secrète
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(req) {
     try {
+        // Initialisation à l'intérieur du POST pour éviter le crash au build de Vercel
+        const resend = new Resend(process.env.RESEND_API_KEY);
+
         // Une seule et unique extraction des données du formulaire
         const { name, email, subject, message } = await req.json();
 
@@ -52,7 +52,6 @@ export async function POST(req) {
             `,
         });
 
-        // Gestion des erreurs internes renvoyées par l'API Resend
         if (error) {
             console.error("Resend API Error:", error);
             return new Response(JSON.stringify({ message: "ERROR_WITH_RESEND", error }), {
