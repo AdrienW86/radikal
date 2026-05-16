@@ -5,6 +5,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req) {
     try {
+        // Une seule et unique extraction des données du formulaire
         const { name, email, subject, message } = await req.json();
 
         // 1. Validation des paramètres requis
@@ -32,11 +33,10 @@ export async function POST(req) {
             .replace(/<(?!br\s*\/?)[^>]+>/g, "");
 
         // 4. Envoi du mail via Resend
-        // ATTENTION : Resend impose (comme SendGrid) que le champ 'from' provienne d'un domaine validé (ex: contact@radikal3d.fr)
         const { data, error } = await resend.emails.send({
             from: `Radikal 3D Formulaire <${process.env.EMAIL_MASTER}>`, 
-            to: [process.env.EMAIL_CLIENT], // Doit être un tableau avec Resend
-            replyTo: email, // L'adresse du client qui remplit le formulaire pour lui répondre directement
+            to: [process.env.EMAIL_CLIENT],
+            replyTo: email,
             subject: `Radikal 3D - ${subject}`,
             text: `${name} vous a contacté.\n\nVoici son message :\n\n${message}`,
             html: `
@@ -52,7 +52,7 @@ export async function POST(req) {
             `,
         });
 
-        // Si Resend renvoie une erreur interne (ex: clé invalide, domaine non configuré)
+        // Gestion des erreurs internes renvoyées par l'API Resend
         if (error) {
             console.error("Resend API Error:", error);
             return new Response(JSON.stringify({ message: "ERROR_WITH_RESEND", error }), {
