@@ -11,7 +11,7 @@ export default function FloatingCTA() {
       {/* VERSION MOBILE (Visible uniquement sur smartphones) */}
       {/* ========================================== */}
       <a 
-        href="tel:+33608008683"
+        href="tel:+33762240168"
         className="lg:hidden flex items-center justify-center w-14 h-14 bg-red-600 text-white rounded-full shadow-2xl hover:bg-red-700 active:scale-95 transition-all duration-200"
         aria-label="Appeler Radikal 3D"
       >
