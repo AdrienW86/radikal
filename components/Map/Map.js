@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 
 export default function GoogleMap() {
   const address = {
-    phone: "06 08 00 86 83",
+    phone: "07 62 24 01 68",
     fullAddress: "Pyrénées Orientales",
   };
 
