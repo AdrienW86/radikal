@@ -35,7 +35,7 @@ export default function FloatingCTA() {
       {/* VERSION BUREAU (Discrète, visible sur PC) */}
       {/* ========================================== */}
       <a 
-        href="tel:+33608008683"
+        href="tel:+33762240168"
         className="hidden lg:flex items-center space-x-3 bg-red-600 hover:bg-red-700 text-white px-5 py-3 rounded-xl shadow-2xl transform hover:-translate-y-1 transition-all duration-300 group"
       >
         <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />

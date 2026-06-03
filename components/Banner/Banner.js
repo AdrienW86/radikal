@@ -33,10 +33,10 @@ export default function Carousel() {
        
        {/* BOUTON APPEL MOBILE - z-40 pour passer AU-DESSUS du bloc invisible */}
        <a 
-         href="tel:0608008683" 
+         href="tel:0762240168" 
          className="lg:hidden absolute top-4 left-1/2 transform -translate-x-1/2 z-40 bg-red-600 text-white font-black text-sm uppercase tracking-wider px-6 py-3 rounded-full shadow-2xl animate-bounce text-center whitespace-nowrap"
        >
-        📞 06 08 00 86 83
+        📞 07 62 24 01 68
       </a>
 
       {/* MACARON CERTIBIOCIDE / GARANTIE */}
