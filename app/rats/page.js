@@ -1,13 +1,13 @@
 import Menu from '@/components/Menu/Menu';
 
 export const metadata = {
-  title: "Dératisation à Perpignan - Radikal 3D",
-  description: "Radikal 3D à Perpignan vous propose un traitement efficace contre les rats et souris. Diagnostic précis, intervention rapide et solutions durables.",
+  title: "Dératisation à Perpignan - Nuisibles Services",
+  description: "Nuisibles Services à Perpignan vous propose un traitement efficace contre les rats et souris. Diagnostic précis, intervention rapide et solutions durables.",
 };
 
 const deratisationContent = {
   title: "Dératisation professionnelle",
-  intro: "Radikal 3D intervient rapidement à Perpignan et ses alentours pour éliminer les rats, souris et autres rongeurs nuisibles. Nous proposons un traitement efficace et durable, adapté aux habitations, locaux commerciaux ou industriels.",
+  intro: "Nuisibles Services intervient rapidement à Perpignan et ses alentours pour éliminer les rats, souris et autres rongeurs nuisibles. Nous proposons un traitement efficace et durable, adapté aux habitations, locaux commerciaux ou industriels.",
   sections: [
     {
       title: "1. Inspection et identification des rongeurs",
@@ -36,7 +36,7 @@ const deratisationContent = {
       content: "Notre équipe intervient dans un délai très court sur Perpignan, Saleilles, Canet-en-Roussillon, Saint-Estève et les communes voisines. Disponibles 7j/7, nous assurons un service réactif, professionnel et confidentiel.",
     }
   ],
-  conclusion: "Faites confiance à Radikal 3D pour un traitement anti-rongeurs efficace à Perpignan. Éradication rapide, protection durable et conseils personnalisés pour votre sécurité et votre tranquillité."
+  conclusion: "Faites confiance à Nuisibles Services pour un traitement anti-rongeurs efficace à Perpignan. Éradication rapide, protection durable et conseils personnalisés pour votre sécurité et votre tranquillité."
 };
 
 export default function Page() {

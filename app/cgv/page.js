@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Conditions générales de vente - Radikal 3D',
-  description: 'Conditions générales de vente (CGV) des prestations de services anti-nuisibles de Radikal 3D à Perpignan.',
+  title: 'Conditions générales de vente - Nuisibles Services',
+  description: 'Conditions générales de vente (CGV) des prestations de services anti-nuisibles de Nuisibles Services à Perpignan.',
 }
 
 export default function CGV() {
@@ -19,7 +19,7 @@ export default function CGV() {
           Produits et services
         </h2>
         <p className="text-base leading-relaxed text-gray-600 mb-6">
-          Radikal 3D propose des prestations professionnelles de dératisation, désinsectisation, dépigeonnage, désinfection et traitement des bois dans toutes les Pyrénées-Orientales.
+          Nuisibles Services propose des prestations professionnelles de dératisation, désinsectisation, dépigeonnage, désinfection et traitement des bois dans toutes les Pyrénées-Orientales.
         </p>
 
         {/* SECTION 2 */}
@@ -51,7 +51,7 @@ export default function CGV() {
           Garanties et responsabilités
         </h2>
         <p className="text-base leading-relaxed text-gray-600">
-          Radikal 3D s’engage à fournir des prestations rigoureuses et conformes aux normes sanitaires et réglementations biocides en vigueur. L’entreprise ne pourra en aucun cas être tenue responsable en cas de dommages résultant d’une mauvaise préparation des locaux ou du non-respect des consignes de sécurité post-traitement par le client.
+          Nuisibles Services s’engage à fournir des prestations rigoureuses et conformes aux normes sanitaires et réglementations biocides en vigueur. L’entreprise ne pourra en aucun cas être tenue responsable en cas de dommages résultant d’une mauvaise préparation des locaux ou du non-respect des consignes de sécurité post-traitement par le client.
         </p>
 
       </div>

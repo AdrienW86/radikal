@@ -2,8 +2,8 @@ import Map from '@/components/Map/Map';
 import Form from '@/components/Form/Form';
 
 export const metadata = {
-  title: "Nous contacter - Radikal 3D",
-  description: "Contactez Radikal 3D pour un devis gratuit ou une intervention d'urgence anti-nuisibles à Perpignan et dans toutes les Pyrénées-Orientales.",
+  title: "Nous contacter - Nuisibles Services",
+  description: "Contactez Nuisibles Services pour un devis gratuit ou une intervention d'urgence anti-nuisibles à Perpignan et dans toutes les Pyrénées-Orientales.",
 };
 
 export default function Contact() {

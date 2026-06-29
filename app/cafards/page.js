@@ -1,13 +1,13 @@
 import Menu from '@/components/Menu/Menu';
 
 export const metadata = {
-  title: "Désinsectisation à Perpignan - Radikal 3D",
-  description: "Traitement contre cafards, fourmis, moustiques et autres insectes à Perpignan. Radikal 3D vous débarrasse efficacement des nuisibles.",
+  title: "Désinsectisation à Perpignan - Nuisibles Services",
+  description: "Traitement contre cafards, fourmis, moustiques et autres insectes à Perpignan. Nuisibles Services vous débarrasse efficacement des nuisibles.",
 };
 
 const cafardsContent = {
   title: "Élimination des cafards et blattes",
-  intro: "Radikal 3D propose un service efficace de désinsectisation pour éradiquer cafards, blattes et autres insectes rampants à Perpignan. Protégez votre maison ou votre commerce rapidement avec nos solutions professionnelles.",
+  intro: "Nuisibles Services propose un service efficace de désinsectisation pour éradiquer cafards, blattes et autres insectes rampants à Perpignan. Protégez votre maison ou votre commerce rapidement avec nos solutions professionnelles.",
   sections: [
     {
       title: "1. Diagnostic d’infestation de cafards",

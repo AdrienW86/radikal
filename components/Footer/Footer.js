@@ -16,8 +16,8 @@ export default function Footer() {
           <Image
             src="/logo.png"
             alt="Radikal 3D logo"
-            width={120}
-            height={120}
+            width={180}
+            height={180}
             sizes="120px"
             className="brightness-0 invert opacity-90 hover:opacity-100 transition-opacity duration-300"
           />
@@ -47,7 +47,7 @@ export default function Footer() {
 
         {/* CRÉDITS ET COPYRIGHT */}
         <div className="flex flex-col items-center md:items-end space-y-2 text-xs font-sans tracking-wide">
-          <p>© {currentYear} Radikal 3D. Tous droits réservés.</p>
+          <p>© {currentYear} Nuisibles Services. Tous droits réservés.</p>
           
           <a 
             href="https://code-v.fr" 

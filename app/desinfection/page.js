@@ -1,13 +1,13 @@
 import Menu from '@/components/Menu/Menu';
 
 export const metadata = {
-  title: "Désinfection à Perpignan - Traitement virus, bactéries et champignons - Radikal 3D",
-  description: "Radikal 3D réalise des opérations de désinfection à Perpignan et dans le 66 : locaux, habitations, bureaux, après sinistre ou contamination. Intervention rapide et efficace.",
+  title: "Désinfection à Perpignan - Traitement virus, bactéries et champignons - Nuisibles Services",
+  description: "Nuisibles Services réalise des opérations de désinfection à Perpignan et dans le 66 : locaux, habitations, bureaux, après sinistre ou contamination. Intervention rapide et efficace.",
 };
 
 const desinfectionContent = {
   title: "Désinfection de locaux et habitations",
-  intro: "Radikal 3D intervient rapidement pour désinfecter tous types de locaux à Perpignan et dans les Pyrénées-Orientales : habitations, bureaux, commerces, parties communes, véhicules, etc.",
+  intro: "Nuisibles Services intervient rapidement pour désinfecter tous types de locaux à Perpignan et dans les Pyrénées-Orientales : habitations, bureaux, commerces, parties communes, véhicules, etc.",
   sections: [
     {
       title: "1. Analyse du lieu et des risques",
@@ -33,10 +33,10 @@ const desinfectionContent = {
     },
     {
       title: "5. Intervention dans tout le 66",
-      content: "Radikal 3D couvre Perpignan, Thuir, Elne, Bompas, Saint-Estève et les communes voisines pour des désinfections urgentes ou programmées.",
+      content: "Nuisibles Services couvre Perpignan, Thuir, Elne, Bompas, Saint-Estève et les communes voisines pour des désinfections urgentes ou programmées.",
     }
   ],
-  conclusion: "Pour assurer la sécurité sanitaire de vos espaces privés ou professionnels, faites appel à Radikal 3D, spécialiste de la désinfection dans les Pyrénées-Orientales."
+  conclusion: "Pour assurer la sécurité sanitaire de vos espaces privés ou professionnels, faites appel à Nuisibles Services, spécialiste de la désinfection dans les Pyrénées-Orientales."
 };
 
 export default function Page() {

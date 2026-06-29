@@ -44,7 +44,7 @@ export default function Equipment() {
             {/* Corps du texte */}
             <p className="text-gray-600 text-lg md:text-xl leading-relaxed font-sans pt-2">
               Située au cœur des <strong className="text-gray-900 font-bold">Pyrénées-Orientales</strong>, 
-              Radikal 3D vous offre son expertise spécialisée dans l’extermination des nuisibles. 
+              Nuisibles Services vous offre son expertise spécialisée dans l’extermination des nuisibles. 
               Que ce soit pour un traitement curatif ou préventif, notre équipe intervient rapidement, 
               discrètement et avec des solutions certifiées.
             </p>

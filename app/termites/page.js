@@ -1,13 +1,13 @@
 import Menu from '@/components/Menu/Menu';
 
 export const metadata = {
-  title: "Traitement termites à Perpignan - Radikal 3D",
-  description: "Radikal 3D traite efficacement les infestations de termites à Perpignan et alentours. Diagnostic précis, traitement certifié et prévention durable.",
+  title: "Traitement termites à Perpignan - Nuisibles Services",
+  description: "Nuisibles Services traite efficacement les infestations de termites à Perpignan et alentours. Diagnostic précis, traitement certifié et prévention durable.",
 };
 
 const termitesContent = {
   title: "Traitement des termites",
-  intro: "Chez Radikal 3D, nous intervenons rapidement pour éliminer toute infestation de termites. Grâce à notre expertise, nous vous garantissons une solution efficace et durable pour protéger vos biens.",
+  intro: "Chez Nuisibles Services, nous intervenons rapidement pour éliminer toute infestation de termites. Grâce à notre expertise, nous vous garantissons une solution efficace et durable pour protéger vos biens.",
   sections: [
     {
       title: "1. Diagnostic et identification des termites",
@@ -36,7 +36,7 @@ const termitesContent = {
       content: "Nous réalisons un contrôle final pour vérifier l'efficacité du traitement et vous proposons des services de suivi périodiques pour garantir l'absence de nouvelles infestations.",
     }
   ],
-  conclusion: "Avec Radikal 3D, protégez vos bâtiments et vos biens contre les termites grâce à l'expertise d'une équipe professionnelle, réactive et toujours à votre service."
+  conclusion: "Avec Nuisibles Services, protégez vos bâtiments et vos biens contre les termites grâce à l'expertise d'une équipe professionnelle, réactive et toujours à votre service."
 };
 
 export default function Page() {

@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://www.radikal3d.fr',
+  siteUrl: 'https://www.nuisibles-services.fr',
   generateRobotsTxt: true,
   changefreq: 'weekly',
   priority: 0.8,

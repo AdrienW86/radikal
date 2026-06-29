@@ -1,13 +1,13 @@
 import Menu from '@/components/Menu/Menu';
 
 export const metadata = {
-  title: "Destruction de nids de guêpes et frelons à Perpignan - Radikal 3D",
-  description: "Radikal 3D intervient rapidement pour éliminer les nids de guêpes et frelons à Perpignan. Sécurité et efficacité garanties.",
+  title: "Destruction de nids de guêpes et frelons à Perpignan - Nuisibles Services",
+  description: "Nuisibles Services intervient rapidement pour éliminer les nids de guêpes et frelons à Perpignan. Sécurité et efficacité garanties.",
 };
 
 const guepesContent = {
   title: "Destruction de nids de guêpes et frelons",
-  intro: "Radikal 3D intervient rapidement à Perpignan pour éliminer les nids de guêpes, frelons et frelons asiatiques, garantissant votre sécurité et celle de votre famille ou vos collaborateurs.",
+  intro: "Nuisibles Services intervient rapidement à Perpignan pour éliminer les nids de guêpes, frelons et frelons asiatiques, garantissant votre sécurité et celle de votre famille ou vos collaborateurs.",
   sections: [
     {
       title: "1. Localisation et évaluation du nid",
@@ -36,7 +36,7 @@ const guepesContent = {
       content: "Disponible sur Perpignan, Saint-Cyprien, Argelès-sur-Mer et alentours pour une intervention rapide et efficace.",
     }
   ],
-  conclusion: "Pour sécuriser votre maison ou votre entreprise, faites appel à Radikal 3D, spécialiste de la destruction de nids de guêpes et frelons dans le 66."
+  conclusion: "Pour sécuriser votre maison ou votre entreprise, faites appel à Nuisibles Services, spécialiste de la destruction de nids de guêpes et frelons dans le 66."
 };
 
 export default function Page() {

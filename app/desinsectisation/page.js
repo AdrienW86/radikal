@@ -1,13 +1,13 @@
 import Menu from '@/components/Menu/Menu';
 
 export const metadata = {
-  title: "Désinsectisation à Perpignan - Traitement insectes nuisibles - Radikal 3D",
-  description: "Radikal 3D vous débarrasse des insectes nuisibles à Perpignan et dans tout le 66. Intervention rapide, traitements efficaces et respectueux de l’environnement.",
+  title: "Désinsectisation à Perpignan - Traitement insectes nuisibles - Nuisibles Services",
+  description: "Nuisibles Services vous débarrasse des insectes nuisibles à Perpignan et dans tout le 66. Intervention rapide, traitements efficaces et respectueux de l’environnement.",
 };
 
 const desinsectisationContent = {
   title: "Désinsectisation : traitement des insectes nuisibles",
-  intro: "Radikal 3D intervient à Perpignan et dans les Pyrénées-Orientales pour éliminer tous types d’insectes nuisibles : cafards, fourmis, puces, punaises de lit, blattes, mouches, moustiques et autres parasites.",
+  intro: "Nuisibles Services intervient à Perpignan et dans les Pyrénées-Orientales pour éliminer tous types d’insectes nuisibles : cafards, fourmis, puces, punaises de lit, blattes, mouches, moustiques et autres parasites.",
   sections: [
     {
       title: "1. Diagnostic et identification de l’infestation",

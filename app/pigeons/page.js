@@ -1,13 +1,13 @@
 import Menu from '@/components/Menu/Menu';
 
 export const metadata = {
-  title: "Dépigeonnage Pyrénées-Orientales - Radikal 3D",
-  description: "Protégez votre bâtiment des nuisances des pigeons avec Radikal 3D. Intervention professionnelle et respectueuse dans les Pyrénées-Orientales.",
+  title: "Dépigeonnage Pyrénées-Orientales - Nuisibles Services",
+  description: "Protégez votre bâtiment des nuisances des pigeons avec Nuisibles Services. Intervention professionnelle et respectueuse dans les Pyrénées-Orientales.",
 };
 
 const depigeonnageContent = {
   title: "Dépigeonnage et lutte contre les nuisances des pigeons",
-  intro: "Radikal 3D propose des solutions professionnelles de dépigeonnage à Perpignan pour protéger vos bâtiments et réduire les risques sanitaires liés aux pigeons.",
+  intro: "Nuisibles Services propose des solutions professionnelles de dépigeonnage à Perpignan pour protéger vos bâtiments et réduire les risques sanitaires liés aux pigeons.",
   sections: [
     {
       title: "1. Diagnostic des zones à dépigeonner",
@@ -35,7 +35,7 @@ const depigeonnageContent = {
       content: "Service professionnel disponible rapidement sur Perpignan, Canet-en-Roussillon, Elne et leurs environs.",
     }
   ],
-  conclusion: "Radikal 3D, votre expert en dépigeonnage dans les Pyrénées-Orientales, vous aide à protéger votre patrimoine immobilier des nuisances des pigeons."
+  conclusion: "Nuisibles Services, votre expert en dépigeonnage dans les Pyrénées-Orientales, vous aide à protéger votre patrimoine immobilier des nuisances des pigeons."
 };
 
 export default function Page() {

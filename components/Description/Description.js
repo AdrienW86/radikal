@@ -63,7 +63,7 @@ export default function Description() {
           >
             <p className="text-xl">
               Basée dans les <strong className="text-gray-900 font-bold">Pyrénées-Orientales (66)</strong>, 
-              <span className="text-red-600 font-bold"> Radikal 3D</span> intervient rapidement sur tout le département : 
+              <span className="text-red-600 font-bold"> Nuisibles Services</span> intervient rapidement sur tout le département : 
               Perpignan, Canet-en-Roussillon, Argelès-sur-Mer, Céret, Prades et leurs alentours.
             </p>
             <p>
@@ -106,7 +106,7 @@ export default function Description() {
           >
             <div className="w-2 h-8 bg-red-600 rounded-full" />
             <h2 className="text-3xl font-black text-gray-900 uppercase tracking-wide">
-              Pourquoi choisir Radikal 3D ?
+              Pourquoi choisir Nuisibles Services ?
             </h2>
           </motion.div>
 

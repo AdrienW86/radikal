@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.radikal3d.fr
+Host: https://www.nuisibles-services.fr
 
 # Sitemaps
-Sitemap: https://www.radikal3d.fr/sitemap.xml
+Sitemap: https://www.nuisibles-services/sitemap.xml

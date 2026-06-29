@@ -8,7 +8,7 @@ import Script from 'next/script'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Radikal 3D - Anti Nuisibles Perpignan',
+  title: 'Nuisibles Services - Anti Nuisibles Perpignan',
   description: 'Extermination radicale de vos nuisibles',
 }
 

@@ -1,8 +1,8 @@
 import About from '@/components/About/About';
 
 export const metadata = {
-  title: "L'entreprise - Radikal 3D",
-  description: "Découvrez Radikal 3D, votre expert en lutte raisonnée et traitement contre tous types de nuisibles à Perpignan et dans les Pyrénées-Orientales.",
+  title: "L'entreprise - Nuisibles Services",
+  description: "Découvrez Nuisibles Services, votre expert en lutte raisonnée et traitement contre tous types de nuisibles à Perpignan et dans les Pyrénées-Orientales.",
 };
 
 export default function Page() {

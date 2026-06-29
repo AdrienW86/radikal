@@ -1,13 +1,13 @@
 import Menu from '@/components/Menu/Menu';
 
 export const metadata = {
-  title: "Traitement Punaises de lits à Perpignan - Radikal 3D",
-  description: "Éradiquez les punaises de lit avec Radikal 3D. Inspection minutieuse et traitements efficaces pour un sommeil paisible à Perpignan.",
+  title: "Traitement Punaises de lits à Perpignan - Nuisibles Services",
+  description: "Éradiquez les punaises de lit avec Nuisibles Services. Inspection minutieuse et traitements efficaces pour un sommeil paisible à Perpignan.",
 };
 
 const punaisesContent = {
   title: "Traitement des punaises et puces de lit",
-  intro: "Radikal 3D vous aide à éliminer les punaises et puces de lit à Perpignan grâce à des traitements ciblés, efficaces et discrets. Protégez votre sommeil et votre confort au quotidien.",
+  intro: "Nuisibles Services vous aide à éliminer les punaises et puces de lit à Perpignan grâce à des traitements ciblés, efficaces et discrets. Protégez votre sommeil et votre confort au quotidien.",
   sections: [
     {
       title: "1. Détection et identification",
@@ -36,7 +36,7 @@ const punaisesContent = {
       content: "Intervention rapide dans tout le département 66, avec un service confidentiel et respectueux de votre intimité.",
     }
   ],
-  conclusion: "Confiez votre problem de punaises ou puces de lit à Radikal 3D, expert en lutte contre ces nuisibles à Perpignan."
+  conclusion: "Confiez votre problem de punaises ou puces de lit à Nuisibles Services, expert en lutte contre ces nuisibles à Perpignan."
 };
 
 export default function Page() {

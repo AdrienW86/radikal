@@ -37,17 +37,15 @@ export default function Header() {
           <Image
             src="/logo.png"
             alt="Logo Radikal 3D"
-            width={50}
-            height={50}
+            width={120}
+            height={120}
             priority
-            className="w-12 h-12 object-contain"
+            className="w-17 h-17 object-contain"
           />
           <div className="flex flex-col">
-            <span className="text-base font-black text-white tracking-tight uppercase">
-              Radikal <span className="text-red-600">3D</span>
-            </span>
+            
             <span className="text-xs font-bold text-gray-400 tracking-widest uppercase">
-              Anti-Nuisibles
+              Lutte anti-Nuisibles
             </span>
           </div>
         </Link>
